@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 //services
 
 import { EntryService } from './entry.service';
+import { AppRouterModule } from './app-router.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EntryService } from './entry.service';
     HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouterModule
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
