@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 //material design
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { MatButtonModule } from '@angular/material/button';
     //material design
     BrowserAnimationsModule,
     MatButtonModule,
+    MatTableModule,
 
     AppRouterModule
   ],
