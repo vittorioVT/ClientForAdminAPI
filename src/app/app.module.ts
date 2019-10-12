@@ -6,11 +6,14 @@ import { EntriesComponent } from './entries/entries.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
-
 //services
-
 import { EntryService } from './entry.service';
 import { AppRouterModule } from './app-router.module';
+import { HttpClientModule } from '@angular/common/http';
+
+//material design
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,12 @@ import { AppRouterModule } from './app-router.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+
+    //material design
+    BrowserAnimationsModule,
+    MatButtonModule,
+
     AppRouterModule
   ],
   providers: [EntryService],
