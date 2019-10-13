@@ -6,6 +6,6 @@
     "\\src\\app\\entries",
     "\\src\\app\\interfaces"
   ],
-  "SelectedNode": "\\src\\app\\interfaces\\EntryElements.ts",
+  "SelectedNode": "\\src\\app\\entries\\entries.component.ts",
   "PreviewInSolutionExplorer": false
 }
