@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\entries"
+    "\\src\\app\\entries",
+    "\\src\\app\\interfaces"
   ],
-  "SelectedNode": "\\src\\app\\entries\\entries.component.css",
+  "SelectedNode": "\\src\\app\\interfaces\\EntryElements.ts",
   "PreviewInSolutionExplorer": false
 }
