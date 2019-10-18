@@ -13,7 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 //material design
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatTableModule, MatInputModule, MatCardModule, MatSelectModule } from '@angular/material';
+import { MatButtonModule, MatTableModule, MatInputModule, MatCardModule, MatSelectModule, MatToolbarModule } from '@angular/material';
 import { NewEntryComponent } from './new-entry/new-entry.component';
 
 //forms
@@ -38,7 +38,8 @@ import {ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     MatCardModule,
     MatSelectModule,
-
+    MatToolbarModule,
+    
     ReactiveFormsModule,
 
     AppRouterModule
