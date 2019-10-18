@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
-import { Type  } from '../interfaces/Type';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Type } from '../interfaces/Type';
+import { EntryElements } from '../interfaces/EntryElements';
 
 
 @Component({
@@ -13,15 +14,17 @@ export class NewEntryComponent {
     [
       { value: true, display: 'Expense' },
       { value: false, display: 'Income' },
-
     ]
   constructor() { }
 
   entryForm = new FormGroup({
 
-    description: new FormControl(''),
-    isExpense: new FormControl(''),
-    value: new FormControl('')
+    description: new FormControl('', Validators.required),
+    isExpense: new FormControl('', Validators.required),
+    value: new FormControl('', [Validators.required, Validators.pattern('\\d+\\.?\\d*')])
   })
 
+  onSubmit() {
+    console.log(this.entryForm.value);
+  }
 }

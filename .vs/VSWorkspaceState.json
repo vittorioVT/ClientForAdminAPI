@@ -6,6 +6,6 @@
     "\\src\\app\\interfaces",
     "\\src\\app\\new-entry"
   ],
-  "SelectedNode": "\\src\\app\\app-router.module.ts",
+  "SelectedNode": "\\src\\app\\new-entry\\new-entry.component.ts",
   "PreviewInSolutionExplorer": false
 }
