@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Type } from '../interfaces/Type';
 import { EntryElements } from '../interfaces/EntryElements';
+import { EntryService } from '../entry.service';
 
 
 @Component({
@@ -15,7 +16,7 @@ export class NewEntryComponent {
       { value: true, display: 'Expense' },
       { value: false, display: 'Income' },
     ]
-  constructor() { }
+  constructor(private service: EntryService) { }
 
   entryForm = new FormGroup({
 
@@ -26,5 +27,8 @@ export class NewEntryComponent {
 
   onSubmit() {
     console.log(this.entryForm.value);
+    this.service.createEntry(this.entryForm.value).subscribe((data) => {
+      console.log('Data - ', data);
+    })
   }
 }

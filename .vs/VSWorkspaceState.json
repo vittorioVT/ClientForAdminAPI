@@ -3,6 +3,8 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\entries",
+    "\\src\\app\\header",
     "\\src\\app\\interfaces",
     "\\src\\app\\new-entry"
   ],

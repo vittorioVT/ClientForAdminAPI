@@ -15,4 +15,8 @@ export class EntryService {
 
   }
 
+  createEntry(entry) {
+    return this.http.post(this.baseUrl, entry);
+  }
+
 }
