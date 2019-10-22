@@ -4,10 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\entries",
-    "\\src\\app\\header",
     "\\src\\app\\interfaces",
-    "\\src\\app\\new-entry"
+    "\\src\\app\\new-entry",
+    "\\src\\app\\update-entry"
   ],
-  "SelectedNode": "\\src\\app\\new-entry\\new-entry.component.ts",
+  "SelectedNode": "\\src\\app\\update-entry\\update-entry.component.ts",
   "PreviewInSolutionExplorer": false
 }
