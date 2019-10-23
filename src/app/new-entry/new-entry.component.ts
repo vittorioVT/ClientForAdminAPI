@@ -16,6 +16,8 @@ export class NewEntryComponent {
       { value: true, display: 'Expense' },
       { value: false, display: 'Income' },
     ]
+    
+   
   constructor(private service: EntryService) { }
 
   entryForm = new FormGroup({
@@ -31,4 +33,5 @@ export class NewEntryComponent {
       console.log('Data - ', data);
     })
   }
+   
 }
