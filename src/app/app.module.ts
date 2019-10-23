@@ -15,7 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatButtonModule, MatTableModule, MatInputModule, MatCardModule,
-  MatSelectModule, MatToolbarModule, MatDialogModule
+  MatSelectModule, MatToolbarModule, MatDialogModule, MatListModule
        } from '@angular/material';
 import { NewEntryComponent } from './new-entry/new-entry.component';
 
@@ -47,6 +47,7 @@ import { DeleteEntryComponent } from './delete-entry/delete-entry.component';
     MatSelectModule,
     MatToolbarModule,
     MatDialogModule,
+    MatListModule,
     
     ReactiveFormsModule,
 

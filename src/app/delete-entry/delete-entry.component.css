@@ -1,0 +1,10 @@
+.confirm {
+  margin: 10px;
+  color: greenyellow;
+  background-color: darkgreen;
+}
+
+mat-card{
+  width: 40%;
+  margin: 5% 30% 10% 30%;
+}
