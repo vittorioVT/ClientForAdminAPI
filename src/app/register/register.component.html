@@ -1,0 +1,10 @@
+<mat-card>
+  <span>Create new account</span>
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput placeholder="Username" formControlName="userName" />
+    </mat-form-field>
+    <br />
+
+  </form>
+</mat-card>

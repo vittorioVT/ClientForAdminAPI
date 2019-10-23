@@ -10,6 +10,6 @@
     "\\src\\app\\new-entry",
     "\\src\\app\\update-entry"
   ],
-  "SelectedNode": "\\src\\app\\delete-entry\\delete-entry.component.css",
+  "SelectedNode": "\\src\\app\\auth.service.ts",
   "PreviewInSolutionExplorer": false
 }
