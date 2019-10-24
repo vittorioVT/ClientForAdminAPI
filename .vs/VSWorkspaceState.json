@@ -8,8 +8,9 @@
     "\\src\\app\\header",
     "\\src\\app\\interfaces",
     "\\src\\app\\new-entry",
+    "\\src\\app\\register",
     "\\src\\app\\update-entry"
   ],
-  "SelectedNode": "\\src\\app\\auth.service.ts",
+  "SelectedNode": "\\src\\app\\register\\register.component.html",
   "PreviewInSolutionExplorer": false
 }
