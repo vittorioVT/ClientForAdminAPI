@@ -17,6 +17,11 @@ export class AuthService {
   login(user) {
     return this.http.post(this.baseUrl + 'login', user);
   }
+ 
+  logout() {
+    localStorage.removeItem('userName');
+    localStorage.removeItem('token_value');
+  }
 
   get getUserName() {
     return localStorage.getItem('userName');
