@@ -22,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatButtonModule, MatTableModule, MatInputModule, MatCardModule,
-  MatSelectModule, MatToolbarModule, MatDialogModule, MatListModule
+  MatSelectModule, MatToolbarModule, MatDialogModule, MatListModule,
+  MatSortModule
        } from '@angular/material';
 
 //forms
@@ -56,6 +57,7 @@ import { FormsModule } from '@angular/forms';
     MatToolbarModule,
     MatDialogModule,
     MatListModule,
+    MatSortModule,
 
     ReactiveFormsModule, FormsModule,
 
