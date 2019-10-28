@@ -23,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatButtonModule, MatTableModule, MatInputModule, MatCardModule,
   MatSelectModule, MatToolbarModule, MatDialogModule, MatListModule,
-  MatSortModule, MatPaginatorModule
+  MatSortModule, MatPaginatorModule, MatIconModule
        } from '@angular/material';
 
 //forms
@@ -59,6 +59,7 @@ import { FormsModule } from '@angular/forms';
     MatListModule,
     MatSortModule,
     MatPaginatorModule,
+    MatIconModule,
 
     ReactiveFormsModule, FormsModule,
 
