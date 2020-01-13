@@ -15,7 +15,7 @@ export class EntriesComponent implements OnInit {
   displayedColumns: string[] = ['Description', 'IsExpense', 'Value', 'Actions'];
   dataSource;
 
-  @ViewChild(MatSort) sort: MatSort;
+  //@ViewChild(MatSort) sort: MatSort;
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
   constructor(private service: EntryService,

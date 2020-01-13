@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\e2e",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\login"
+    "\\src\\app\\delete-entry",
+    "\\src\\app\\entries",
+    "\\src\\app\\footer",
+    "\\src\\app\\header",
+    "\\src\\app\\interfaces",
+    "\\src\\app\\new-entry"
   ],
-  "SelectedNode": "\\src\\app\\login\\login.component.ts",
+  "SelectedNode": "\\src\\app\\new-entry\\new-entry.component.ts",
   "PreviewInSolutionExplorer": false
 }
